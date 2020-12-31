@@ -10,7 +10,7 @@
  * Cómo Crear pipes por mi propia cuenta.
 
  ------------------------------------------------------------
- # notes-python
+ # pipes
  Web application developed in Angular
 
  # Functionality
