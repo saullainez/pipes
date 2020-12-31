@@ -1,4 +1,29 @@
-# Pipes
+# pipes
+ Aplicacion web desarrollada en Angular
+
+ # Funcionalidad
+ * Mostrar los pipes disponibles en Angular.
+ * Mostrar pipes personalizados:
+
+ # Lo que aprendí
+ * Cómo utilizar pipes en Angular.
+ * Cómo Crear pipes por mi propia cuenta.
+
+ ------------------------------------------------------------
+ # notes-python
+ Web application developed in Angular
+
+ # Functionality
+ * Show available pipes in Angular.
+ * Show custom pipes.
+
+ # What I Learned
+  * How to use pipes in Angular.
+  * How to create pipes on my own.
+
+
+ ------------------------------------------------------------
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.6.
 
