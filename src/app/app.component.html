@@ -67,6 +67,11 @@
           <td>currrency:CAD</td>
           <td>{{ salario | currency:'CAD ':'symbol':'.0-0' }}</td>
         </tr>
+        <tr>
+          <td>{{ valorPromesa }}</td>
+          <td>async</td>
+          <td>{{ valorPromesa | async }}</td>
+        </tr>
       </tbody>
     </table>
 

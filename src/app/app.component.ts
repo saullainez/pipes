@@ -22,4 +22,10 @@ export class AppComponent {
       casa : 20
     }
   };
+
+  valorPromesa = new Promise<string>( (resolve) => {
+    setTimeout(() => {
+      resolve('Llegó la data');
+    }, 4500);
+  } )
 }
