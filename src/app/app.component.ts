@@ -24,6 +24,8 @@ export class AppComponent {
     }
   };
 
+  videoUrl : string = 'https://www.youtube.com/embed/-CBKW-90VxQ';
+
   valorPromesa = new Promise<string>( (resolve) => {
     setTimeout(() => {
       resolve('Llegó la data');
