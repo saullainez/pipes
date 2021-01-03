@@ -97,6 +97,17 @@
           <td>date:MMMM-dd</td>
           <td>{{ fecha | date:'MMMM-dd':'':'en' }}</td>
         </tr>
+        <tr>
+          <td>{{ nombre }}</td>
+          <td>
+            contrasena: {{ocultar}}
+            <br>
+            <button (click) = "ocultar = !ocultar" class="btn btn-outline-primary">
+              Activar/Desactivar
+            </button>
+          </td>
+          <td>{{ nombre | contrasena:ocultar }}</td>
+        </tr>
       </tbody>
     </table>
 
